@@ -1,0 +1,178 @@
+#learning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .title {
+        letter-spacing: 5px;
+        font-size: 35px;
+        font-family: 'Roboto';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 90px;
+        padding-bottom: 30px;
+        font-weight: 800;
+        background: linear-gradient(90deg, #e26b2b 1.84%, #f1d1c1 102.67%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .aboutlearn {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .lesson-wrapper {
+            width: 550px;
+            height: 230px;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f3eeeb;
+            color: rgb(27, 29, 29);
+            gap: 20px;
+            padding: 2rem;
+            transition: all 1s ease;
+            margin: 1rem;
+
+
+
+            .lessons {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                .lesson-header {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    .titlelesson {
+                        font-weight: bold;
+                        color: #d15f1c;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .lesson-detail {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+
+                .p-lesson {
+                    font-size: 19px;
+                    font-family: 'Roboto';
+                    font-weight: 200;
+                }
+            }
+
+            .emoji {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+
+                .emogi {
+                    font-size: 60px;
+                }
+
+            }
+
+
+        }
+
+        .lesson-wrapper:hover {
+
+            background-color: #f9c69db6;
+            cursor: pointer;
+            user-select: none;
+
+            touch-action: manipulation;
+
+            transform: scale(1.1);
+            transition: 1s ease-out;
+
+        }
+    }
+
+
+    @media screen and (max-width:586.98px) {
+
+        .aboutlearn {
+
+            .lesson-wrapper {
+                width: 400px;
+                height: 235px;
+
+                .titlelesson {
+                    font-size: 18px;
+                }
+
+                .lesson-detail {
+                    .p-lesson {
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                }
+
+                .emoji {
+                    .emogi {
+                        font-size: 50px;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    @media screen and (max-width:489.98px) {
+
+        .aboutlearn {
+
+            .lesson-wrapper {
+                width: 330px;
+                height: 240px;
+                border-radius: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #f3eeeb;
+                color: rgb(27, 29, 29);
+                gap: 20px;
+                padding: 2rem;
+                transition: all 1s ease;
+                margin: 1rem;
+
+
+                .titlelesson {
+                    font-size: 17px;
+                    text-align: center;
+                }
+
+                .lesson-detail {
+                    .p-lesson {
+                        font-size: 15px;
+                    }
+                }
+
+                .emoji {
+                    .emogi {
+                        font-size: 40px;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+}
