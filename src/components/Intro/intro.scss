@@ -1,5 +1,6 @@
 .intro {
     display: flex;
+    margin-top: 20px;
 
     .i-left {
         display: flex;
@@ -8,21 +9,24 @@
         flex-direction: column;
 
         .i-name {
-            padding-top: 35px;
+            padding-top: 50px;
             display: flex;
             flex-direction: column;
         }
 
         .i-title {
-            color: var(--black);
+            width: 500px;
+            color: #1c1b1b;
             font-weight: bold;
             font-size: 45px;
             margin-bottom: 10px;
-            font-family: 'Skranji';
+            font-family: 'Montserrat';
+
+
         }
 
         .i-title span {
-            color: var(--orange);
+            color: #fca61f;
             font-weight: bold;
             font-size: 50px;
             margin: 0;
@@ -34,8 +38,9 @@
             font-size: 19px;
             padding-top: 30px;
             width: 500px;
-            font-family: 'Roboto';
-            font-weight: 400;
+            font-family: 'Montserrat';
+            font-weight: 500;
+            letter-spacing: 0.7px;
         }
 
     }
@@ -61,7 +66,6 @@
 
         .i-text {
             font-size: 20px;
-            font-family: 'Roboto';
             font-weight: 400;
         }
     }
@@ -80,65 +84,6 @@
 
     }
 
-    // @media screen and (max-width: 1280px) {
-    //     .i-left {
-    //         display: flex;
-    //         flex: 1;
-
-    //         .i-name {
-    //             width: 400px;
-    //             padding-top: 10px;
-
-    //             .i-title {
-    //                 font-size: 29px;
-    //             }
-
-    //             .i-title span {
-    //                 font-size: 29px;
-    //             }
-
-    //             .i-desc {
-    //                 width: 330px;
-    //                 font-size: 18px;
-    //             }
-    //         }
-
-    //         .button {
-    //             font-size: 20px;
-    //             font-weight: 500;
-
-    //             .i-button {
-    //                 margin-top: 2.4rem;
-    //                 height: 2.6rem;
-    //             }
-    //         }
-
-    //     }
-
-    //     // .i-right {
-    //     //     display: flex;
-
-    //     //     align-items: center;
-    //     //     justify-content: center;
-
-    //     //     .i-img {
-
-    //     //         display: flex;
-    //     //         align-items: center;
-    //     //         justify-content: center;
-
-    //     //         .i-photo {
-    //     //             display: flex;
-    //     //             align-items: center;
-    //     //             justify-content: center;
-    //     //             padding-left: 20px;
-    //     //         }
-
-    //     //     }
-
-
-    //     // }
-    // }
 
     @media screen and (max-width: 1023px) {
         display: flex;

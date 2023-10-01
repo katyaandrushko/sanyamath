@@ -29,7 +29,7 @@ function Hamburger() {
   return (
     <>
       {width > 1024 ? (
-        <nav className="n-wew flex items-center justify-between py-8 h-[10%] navig">
+        <nav className=" flex items-center justify-between py-8 h-[10%] navig">
           <a href="/">
             <h1 className="font-bold">sanya.math</h1>
           </a>

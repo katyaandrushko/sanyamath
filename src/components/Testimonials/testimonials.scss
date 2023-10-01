@@ -280,6 +280,8 @@
 
     @media screen and (max-width: 1023.98px) {
         .outer {
+            height: 1700px;
+
             .inner {
                 transform: scale(0.9);
                 display: grid;
@@ -422,6 +424,7 @@
 
     @media screen and (max-width: 688.98px) {
         .outer {
+            height: 1990px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -559,7 +562,7 @@
 
     @media screen and (max-width:489.98px) {
         .outer {
-            height: 1820px;
+            height: 1960px;
             margin-bottom: 50px;
 
 
@@ -647,7 +650,7 @@
         }
 
         .outer {
-            height: 1960px;
+            height: 1990px;
             margin-bottom: 40px;
 
             .inner {

@@ -5,9 +5,9 @@
     flex-direction: column;
 
     .title {
+        text-align: center;
         letter-spacing: 5px;
         font-size: 35px;
-        font-family: 'Roboto';
         display: flex;
         align-items: center;
         justify-content: center;
@@ -53,7 +53,7 @@
 
 
                     .titlelesson {
-                        font-weight: bold;
+                        font-weight: 900;
                         color: #d15f1c;
                         text-align: center;
                     }
@@ -69,8 +69,7 @@
 
                 .p-lesson {
                     font-size: 19px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
+                    font-weight: 400;
                 }
             }
 
@@ -109,8 +108,9 @@
         .aboutlearn {
 
             .lesson-wrapper {
-                width: 400px;
-                height: 235px;
+
+                width: 100%;
+                height: 100%;
 
                 .titlelesson {
                     font-size: 18px;
@@ -136,11 +136,11 @@
 
     @media screen and (max-width:489.98px) {
 
+
         .aboutlearn {
 
             .lesson-wrapper {
-                width: 290px;
-                height: 240px;
+
                 border-radius: 40px;
                 display: flex;
                 align-items: center;
