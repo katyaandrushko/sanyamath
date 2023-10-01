@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import React from 'react'
+import './navig.scss'
 
 function Navig() {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -21,7 +22,7 @@ function Navig() {
         <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
           {/* якщо натиснути на бургер як все буде виглядати */}
           <div
-            className="absolute top-1 right-0 px-8 py-8"
+            className="absolute top-1 right-1 px-8 py-8 "
             onClick={() => setIsNavOpen(false)}
           >
             {/* показує хрестик коли відкривається гамбургер щоб його закрити
@@ -41,9 +42,9 @@ function Navig() {
           </div>
           {/* як виглядає текст у бургері
            */}
-          <ul className="flex flex-col items-center justify-between min-h-[250px]">
+          <ul className="flex flex-col items-center justify-between min-h-[200px] ">
             <li className="border-b border-gray-400 my-8 uppercase hover:text-yellow-600">
-              <a href="#intro">Головна</a>
+              <a href="/">Головна</a>
             </li>
             <li className="border-b border-gray-400 my-8 uppercase">
               <a href="#learning">Навчання</a>
@@ -64,7 +65,7 @@ function Navig() {
        */}
       <ul className="DESKMTOP-MENU hidden space-x-8 lg:flex">
         <li className=" hover:text-yellow-600">
-          <a href="/intro">Головна</a>
+          <a href="/">Головна</a>
         </li>
         <li className=" hover:text-yellow-600">
           <a href="#learning">Навчання</a>
@@ -79,7 +80,7 @@ function Navig() {
           <a href="#testimonials">Відгуки</a>
         </li>
       </ul>
-      <style>
+      {/* <style>
         {`
         .hideMenuNav {
             display: none;
@@ -98,7 +99,7 @@ function Navig() {
             justify-content: space-evenly;
             align-items: center;
         }`}
-      </style>
+      </style> */}
     </>
   )
 }

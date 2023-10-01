@@ -156,7 +156,8 @@
 
     .card-detail1 {
         width: 100%;
-        height: 400px;
+        // height: 400px;
+        height: 100%;
 
     }
 }
@@ -171,6 +172,7 @@
 
         .card-wrapper {
             width: 490px;
+            // width: 100%;
             padding: 1.5rem;
 
 
@@ -234,6 +236,79 @@
     }
 }
 
+@media screen and (max-width:510.98px) {
+    .priicing {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+
+        gap: 50px;
+
+        .card-wrapper {
+            // width: 490px;
+            height: 100%;
+            padding: 1.5rem;
+
+
+            .title-p {
+                font-size: 25px;
+                padding-top: 8px;
+            }
+
+            .emogip {
+                font-size: 45px;
+
+            }
+
+
+            .card-detail {
+                width: 100%;
+                height: 540px;
+
+
+                p {
+                    padding-top: 4px;
+                    padding-bottom: 7px;
+                    font-size: 19px;
+                    font-family: 'Roboto';
+                    font-weight: 200;
+                }
+
+            }
+
+
+
+            .card-detail1 {
+                width: 100%;
+                height: 390px;
+
+                p {
+                    padding-top: 4px;
+                    padding-bottom: 7px;
+                    font-size: 19px;
+                    font-family: 'Roboto';
+                    font-weight: 200;
+                }
+
+            }
+
+
+            .text {
+                font-size: 17px;
+            }
+
+            .text span {
+                font-size: 17px;
+            }
+
+        }
+
+
+
+    }
+}
+
 @media screen and (max-width:480.98px) {
     .priicing {
         gap: 10px;
@@ -242,8 +317,8 @@
 
             .card-detail {
                 width: 100%;
-                height: 570px;
-
+                height: 100%;
+                // height: 570px;
 
                 p {
                     padding-top: 4px;

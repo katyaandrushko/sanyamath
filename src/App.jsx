@@ -9,7 +9,7 @@ import Contact from './components/Contact/Contact'
 
 function App() {
   return (
-    <div className="container mx-auto mb-8 px-8">
+    <div className="container mx-auto mb-8 px-8 overflow-x-hidden">
       <Hamburger />
       <Intro />
       <Learning />
