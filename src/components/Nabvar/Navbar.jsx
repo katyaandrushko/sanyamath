@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="n-right">
         <div className="n-list">
           <ul class="n-ulist">
-            <li className="n-llist">Головна</li>
+            <li className="n-llist ">Головна</li>
             <li className="n-llist">Навчання</li>
             <li className="n-llist">Тарифи</li>
             <li className="n-llist">Викладач</li>

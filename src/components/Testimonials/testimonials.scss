@@ -142,7 +142,7 @@
                 transform: scale(0.9);
                 display: grid;
                 grid-gap: 1rem;
-                grid-template-rows: repeat(3, 24rem);
+                grid-template-rows: repeat(3, 25rem);
                 grid-template-columns: repeat(2, 10rem);
 
 
@@ -264,10 +264,10 @@
                     opacity: 70%;
                     line-height: 1.5;
 
-                    .hid {
-                        visibility: visible;
-                        color: #2c2a2a;
-                    }
+                    // .hid {
+                    //     visibility: visible;
+                    //     color: #2c2a2a;
+                    // }
                 }
 
                 .review.dark p {
@@ -280,13 +280,14 @@
 
     @media screen and (max-width: 1023.98px) {
         .outer {
-            height: 1700px;
+            height: 1910px;
+
 
             .inner {
                 transform: scale(0.9);
                 display: grid;
                 grid-gap: 1rem;
-                grid-template-rows: repeat(3, 30rem);
+                grid-template-rows: repeat(3, 33rem);
                 grid-template-columns: repeat(2, 10rem);
 
 
@@ -409,8 +410,9 @@
                     line-height: 1.5;
 
                     .hid {
+                        font-weight: 400;
                         visibility: visible;
-                        color: #2c2a2a;
+                        color: #000000;
                     }
                 }
 

@@ -1,7 +1,18 @@
-.logo {}
-
 @media screen and (max-width:489.98px) {
     .logo {
         font-size: 15px;
     }
+}
+
+@media screen and (max-width:376.98px) {
+    .logo1 {
+        display: none;
+    }
+
+    .n-btn {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+
 }
