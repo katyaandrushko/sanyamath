@@ -10,7 +10,7 @@ const AboutTeacher = () => {
       <div className="aboutteach">
         <div className="left">
           <div className="bgimg">
-            <img src="./assets/sanyaa.jpg" alt="" className="bggimg2" />
+            <img src="./assets/sanyaa.png" alt="" className="bggimg2" />
           </div>
         </div>
 

@@ -11,7 +11,7 @@ const Testimonials = () => {
           <div className="div1 eachdiv">
             <div className="userdetails">
               <div className="imgbox">
-                <img src="./assets/testimon3.jpg" alt="" />
+                <img src="./assets/girl.png" alt="" />
               </div>
               <div className="detbox">
                 <p className="name dark">Таня Ілютенко</p>
@@ -122,21 +122,17 @@ const Testimonials = () => {
           <div className="div6 eachdiv">
             <div className="userdetails">
               <div className="imgbox">
-                <img
-                  src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg"
-                  alt=""
-                />
+                <img src="./assets/testimon6.jpg" alt="" />
               </div>
               <div className="detbox">
-                <p className="name dark">Нікнейм учня</p>
+                <p className="name dark">Ельміра</p>
               </div>
             </div>
             <div className="review dark">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                quae, excepturi quos dolorum, magni nobis consequuntur ea
-                architecto laborum debitis alias molestiae aperiam dolor
-                mollitia consequatur nemo eveniet ipsam laudantium!
+                Привіт! Дуже дякую😘 Я дуже вдячна за вашу спільну роботу над
+                цим курсом. Це щось неймовірно. Така крута система навчання, я
+                просто в захваті😍
               </p>
             </div>
           </div>

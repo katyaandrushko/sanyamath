@@ -60,6 +60,14 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .title {
+    text-align: center;
+    padding-bottom: 19px;
+    font-size: 30px;
+  }
+}
+
 .button:hover {
   background-position: right center;
 

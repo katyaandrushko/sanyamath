@@ -30,9 +30,9 @@
         flex-direction: column;
 
         .titlealex {
+            font-family: 'Montserrat';
             padding-top: 25px;
             font-size: 30px;
-            font-family: 'Roboto';
             font-weight: 500;
             text-align: center;
         }
@@ -50,10 +50,13 @@
             gap: 15px;
             margin-bottom: 50px;
             justify-content: center;
+            font-family: 'Montserrat';
 
 
 
             .a-desc {
+                font-family: 'Montserrat';
+                font-weight: 400;
                 font-size: 20px;
                 display: flex;
                 flex-direction: column;
@@ -67,6 +70,7 @@
                 }
 
                 .motiv {
+                    font-family: 'Montserrat';
                     padding-top: 50px;
                     font-weight: 300;
                     font-size: 21px;
@@ -100,7 +104,7 @@
 
                         .a-title {
                             font-size: 17px;
-                            font-family: 'Roboto';
+
                             font-weight: 500;
                             display: flex;
                             align-items: center;
@@ -166,7 +170,7 @@
             .titlealex {
                 padding-top: 25px;
                 font-size: 25px;
-                font-family: 'Roboto';
+
                 font-weight: 500;
                 text-align: center;
             }
@@ -221,7 +225,7 @@
 
                             .a-title {
                                 font-size: 14px;
-                                font-family: 'Roboto';
+
                                 font-weight: 500;
                                 display: flex;
                                 align-items: center;

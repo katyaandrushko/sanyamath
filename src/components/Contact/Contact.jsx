@@ -3,7 +3,6 @@ import emailjs from '@emailjs/browser'
 import './contact.scss'
 
 // npm i @emailjs/browser
-
 function Contact() {
   const [value, setValue] = useState()
   const form = useRef()
@@ -178,7 +177,8 @@ function Contact() {
                   required
                 />
                 {/* <input type="submit" value="Send" className="btn" /> */}
-                <button className="btn" type="submit">
+
+                <button className="btn c-btn" type="submit">
                   Надіслати заявку
                 </button>
               </form>

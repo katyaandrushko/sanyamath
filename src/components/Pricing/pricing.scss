@@ -3,21 +3,18 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    // padding-top: 10px;
+    height: 100%;
     gap: 70px;
 
     .card-wrapper {
-
-        width: 520px;
-
-        height: 70%;
+        width: 40%;
+        height: 100%;
         border-radius: 30px;
         box-shadow: 0px 0px 15px -8px black;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-
         transition: all 1s ease;
         padding: 2rem;
         margin: 1rem;
@@ -40,25 +37,29 @@
         }
 
 
-
-
         .card-detail {
             width: 100%;
-            height: 500px;
-
 
             p {
-
                 padding-top: 7px;
                 padding-bottom: 10px;
                 font-size: 19px;
-                font-family: 'Roboto';
-                font-weight: 200;
+                font-weight: 300;
+
             }
 
             p:hover {
                 background-color: #f0e8e0;
                 border-radius: 20px;
+            }
+
+            .em {
+                margin-right: 2px;
+                margin-top: 2px;
+            }
+
+            .add-text {
+                font-weight: 500;
             }
         }
 
@@ -66,15 +67,19 @@
 
         .card-detail1 {
             width: 100%;
-            height: 500px;
+            height: 100%;
+
 
             p {
+
                 padding-top: 7px;
                 padding-bottom: 10px;
                 font-size: 19px;
-                font-family: 'Roboto';
-                font-weight: 200;
+                font-weight: 300;
+
             }
+
+
 
             p:hover {
                 background-color: #f0e8e0;
@@ -87,6 +92,7 @@
 
         .card-price {
             display: flex;
+            text-align: center;
             align-items: center;
             padding-top: 30px;
             margin: 1rem;
@@ -95,7 +101,8 @@
         .card-price1 {
             display: flex;
             align-items: center;
-            padding-top: 30px;
+            text-align: center;
+            padding-top: 120px;
             margin: 1rem;
         }
 
@@ -103,7 +110,6 @@
 
         .price {
             font-weight: 800;
-            font-family: 'Roboto';
             letter-spacing: 5px;
             font-size: 26px;
             color: rgb(237, 138, 25);
@@ -113,13 +119,24 @@
 
         .text {
             margin-top: 13px;
-            font-family: 'roboto';
-            font-weight: 200;
+            font-weight: 400;
             font-size: 19px;
             text-align: center;
         }
 
         .text span {
+            color: rgb(224, 121, 25);
+            font-weight: 700;
+        }
+
+        .text1 {
+            margin-top: 10px;
+            font-weight: 400;
+            font-size: 19px;
+            text-align: center;
+        }
+
+        .text1 span {
             color: rgb(224, 121, 25);
             font-weight: 700;
         }
@@ -142,432 +159,200 @@
 
 
 
-
-@media screen and (max-width: 1023px) {
-    .card-price {
-        padding-top: 25px;
-        margin: 25px;
-    }
-
-    .card-price1 {
-        padding-top: 25px;
-        margin: 25px;
-    }
-
-    .card-detail1 {
-        width: 100%;
-        // height: 400px;
-        height: 100%;
-
-    }
-}
-
-@media screen and (max-width:586.98px) {
+@media screen and (max-width:1023.98px) {
     .priicing {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 50px;
+
+
+
 
         .card-wrapper {
-            width: 490px;
-            // width: 100%;
-            padding: 1.5rem;
-
+            width: 100%;
 
             .title-p {
                 font-size: 25px;
-                padding-top: 8px;
+
             }
 
             .emogip {
-                font-size: 45px;
+                font-size: 50px;
 
             }
 
-
-
-
             .card-detail {
-                width: 100%;
-                height: 480px;
 
 
                 p {
-                    padding-top: 4px;
-                    padding-bottom: 7px;
+
                     font-size: 19px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
+
+
                 }
 
+
+
+                .em {
+                    margin-right: 2px;
+                    margin-top: 2px;
+                }
+
+                .add-text {
+                    font-weight: 500;
+                }
             }
 
 
 
             .card-detail1 {
-                width: 100%;
-                height: 390px;
+
+
 
                 p {
-                    padding-top: 4px;
-                    padding-bottom: 7px;
                     font-size: 19px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
+
+
                 }
+
+
+            }
+
+
+
+            .card-price {
+
+                padding-top: 30px;
+
+            }
+
+            .card-price1 {
+
+                padding-top: 30px;
+
+            }
+
+
+
+            .price {
+                font-weight: 800;
+                letter-spacing: 5px;
+                font-size: 26px;
+                color: rgb(237, 138, 25);
 
             }
 
 
             .text {
-                font-size: 17px;
+                margin-top: 13px;
+                font-weight: 400;
+                font-size: 19px;
+
             }
 
-            .text span {
-                font-size: 17px;
+
+
+            .text1 {
+                margin-top: 10px;
+                font-weight: 400;
+                font-size: 19px;
+                text-align: center;
             }
+
 
         }
 
 
 
     }
-}
 
-@media screen and (max-width:510.98px) {
-    .priicing {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 100%;
-
-        gap: 50px;
-
-        .card-wrapper {
-            // width: 490px;
-            height: 100%;
-            padding: 1.5rem;
-
-
-            .title-p {
-                font-size: 25px;
-                padding-top: 8px;
-            }
-
-            .emogip {
-                font-size: 45px;
-
-            }
-
-
-            .card-detail {
-                width: 100%;
-                height: 540px;
-
-
-                p {
-                    padding-top: 4px;
-                    padding-bottom: 7px;
-                    font-size: 19px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
-                }
-
-            }
-
-
-
-            .card-detail1 {
-                width: 100%;
-                height: 390px;
-
-                p {
-                    padding-top: 4px;
-                    padding-bottom: 7px;
-                    font-size: 19px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
-                }
-
-            }
-
-
-            .text {
-                font-size: 17px;
-            }
-
-            .text span {
-                font-size: 17px;
-            }
-
-        }
-
-
-
-    }
 }
 
 @media screen and (max-width:480.98px) {
     .priicing {
-        gap: 10px;
-
         .card-wrapper {
 
+
+            .title-p {
+                font-size: 20px;
+            }
+
+            .emogip {
+                font-size: 50px;
+            }
+
             .card-detail {
-                width: 100%;
-                height: 100%;
-                // height: 570px;
 
                 p {
-                    padding-top: 4px;
-                    padding-bottom: 7px;
-                    font-size: 19px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
-
+                    font-size: 17px;
                 }
 
 
+
+                .em {
+
+                    margin-top: 2px;
+                }
+
+                .add-text {
+                    font-weight: 600;
+                    font-size: 17px;
+                }
             }
+
+
 
             .card-detail1 {
-                width: 100%;
-                height: 450px;
+
+
 
                 p {
-                    padding-top: 4px;
-                    padding-bottom: 7px;
-                    font-size: 19px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
+                    font-size: 17px;
+
+
                 }
 
+
             }
 
-            .card-price {
-
-                padding-top: 70px;
-                margin: 20px;
-            }
-
-            .card-price1 {
-
-                padding-top: 40px;
-                margin: 20px;
-            }
 
 
 
             .price {
-
-                font-size: 22px;
-
+                font-weight: 800;
+                letter-spacing: 5px;
+                font-size: 24px;
+                color: rgb(237, 138, 25);
 
             }
 
+
             .text {
-                font-size: 17px;
+                margin-top: 20px;
+                font-weight: 400;
+                font-size: 16px;
+
             }
 
             .text span {
-                font-size: 17px;
+                font-size: 16px;
             }
+
+
+
+            .text1 {
+                margin-top: 20px;
+                font-weight: 400;
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .text1 span {
+                font-size: 16px;
+            }
+
 
         }
 
 
 
     }
-}
 
-@media screen and (max-width:450.98px) {
-    .priicing {
-        gap: 10px;
-
-        .card-wrapper {
-
-            .card-detail {
-                width: 100%;
-                height: 600px;
-
-
-                p {
-                    padding-top: 4px;
-                    padding-bottom: 7px;
-                    font-size: 19px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
-
-                }
-
-
-            }
-
-            .card-detail1 {
-                width: 100%;
-                height: 500px;
-
-                p {
-                    padding-top: 4px;
-                    padding-bottom: 7px;
-                    font-size: 19px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
-                }
-
-            }
-
-        }
-
-
-
-    }
-}
-
-@media screen and (max-width:390.98px) {
-    .priicing {
-        gap: 30px;
-
-        .card-wrapper {
-
-            .card-detail {
-                width: 100%;
-                height: 550px;
-
-
-                p {
-                    padding-top: 1px;
-                    padding-bottom: 1px;
-                    font-size: 17px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
-
-                }
-
-
-            }
-
-            .card-detail1 {
-                width: 100%;
-                height: 490px;
-
-                p {
-                    padding-top: 4px;
-                    padding-bottom: 1px;
-                    font-size: 17px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
-                }
-
-            }
-
-            .card-price {
-
-                padding-top: 70px;
-                margin: 20px;
-            }
-
-            .card-price1 {
-
-                padding-top: 40px;
-                margin: 20px;
-            }
-
-
-
-            .price {
-
-                font-size: 22px;
-
-
-            }
-
-            .text {
-                font-size: 17px;
-            }
-
-            .text span {
-                font-size: 17px;
-            }
-
-        }
-
-
-
-    }
-}
-
-@media screen and (max-width:360.98px) {
-    .priicing {
-        gap: 30px;
-
-        .card-wrapper {
-
-            .card-detail {
-                width: 100%;
-                height: 670px;
-
-
-                p {
-                    padding-top: 1px;
-                    padding-bottom: 1px;
-                    font-size: 17px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
-
-                }
-
-
-            }
-
-            .card-detail1 {
-                width: 100%;
-                height: 530px;
-
-                p {
-                    padding-top: 4px;
-                    padding-bottom: 1px;
-                    font-size: 17px;
-                    font-family: 'Roboto';
-                    font-weight: 200;
-                }
-
-            }
-
-            .card-price {
-
-                padding-top: 70px;
-                margin: 20px;
-            }
-
-            .card-price1 {
-
-                padding-top: 40px;
-                margin: 20px;
-            }
-
-
-
-            .price {
-
-                font-size: 19px;
-
-
-            }
-
-            .text {
-                font-size: 17px;
-            }
-
-            .text span {
-                font-size: 17px;
-            }
-
-        }
-
-
-
-    }
 }

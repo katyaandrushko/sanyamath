@@ -29,7 +29,7 @@ function Hamburger() {
   return (
     <>
       {width > 1024 ? (
-        <nav className=" flex items-center justify-between py-8 h-[10%] navig">
+        <nav className=" flex items-center justify-between py-8 h-[10%]">
           <a href="/">
             <h1 className="font-bold">sanya.math</h1>
           </a>
@@ -42,12 +42,12 @@ function Hamburger() {
                 .scrollIntoView({ behavior: 'smooth' })
             }}
           >
-            Зв`язатися
+            Зв‘язатися
           </button>
         </nav>
       ) : (
         <nav className="flex items-center justify-between py-8 h-[10%] ">
-          <a href="/">
+          <a href="/" className="logo1">
             <h1 className="font-bold logo">sanya.math</h1>
           </a>
           <button
@@ -58,7 +58,7 @@ function Hamburger() {
                 .scrollIntoView({ behavior: 'smooth' })
             }}
           >
-            Зв`язатися
+            Зв‘язатися
           </button>
           <Navig />
         </nav>

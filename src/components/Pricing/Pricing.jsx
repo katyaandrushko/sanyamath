@@ -68,7 +68,7 @@ function Pricing() {
             Дізнатися деталі
           </button>
 
-          <p className="text">
+          <p className="text1">
             ‼️ Залишай заявку, щоб <span>безкоштовно</span> отримати пробний
             урок з авторськими матеріалами та домашнім завданням
           </p>
@@ -117,22 +117,23 @@ function Pricing() {
               <span> 🖇️ </span>
               Атмосферний чат з учнями
             </p>
-            <p className=" flex">
-              <span> 🖇️ </span>
-              <div className="font-medium px-1 md:text-base ">
+
+            <div className="flex">
+              <span className="em">🖇️</span>
+              <p className="add-text font-bold px-1">
                 2 зум зустрічі з викладачем
-              </div>
-            </p>
-            <p className=" flex">
-              <span> 🖇️ </span>
-              <div className="font-medium px-1 sm:max ">
+              </p>
+            </div>
+            <div className="flex">
+              <span className="em">🖇️</span>
+              <p className="add-text font-bold px-1">
                 Особистий чат з викладачем
-              </div>
-            </p>
+              </p>
+            </div>
           </div>
 
           <div className="card-price">
-            <p className="price">1690 грн</p>
+            <p className="price">1890 грн</p>
           </div>
 
           <button

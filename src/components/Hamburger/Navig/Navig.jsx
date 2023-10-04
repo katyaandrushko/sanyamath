@@ -65,41 +65,31 @@ function Navig() {
        */}
       <ul className="DESKMTOP-MENU hidden space-x-8 lg:flex">
         <li className=" hover:text-yellow-600">
-          <a href="/">Головна</a>
+          <a href="/" className="font-[700]">
+            Головна
+          </a>
         </li>
         <li className=" hover:text-yellow-600">
-          <a href="#learning">Навчання</a>
+          <a href="#learning" className="font-[700] ">
+            Навчання
+          </a>
         </li>
         <li className=" hover:text-yellow-600">
-          <a href="#pricing">Тарифи</a>
+          <a href="#pricing" className="font-[700]">
+            Тарифи
+          </a>
         </li>
         <li className=" hover:text-yellow-600">
-          <a href="#aboutteacher">Викладач</a>
+          <a href="#aboutteacher" className="font-[700]">
+            Викладач
+          </a>
         </li>
         <li className=" hover:text-yellow-600">
-          <a href="#testimonials">Відгуки</a>
+          <a href="#testimonials" className="font-[700]">
+            Відгуки
+          </a>
         </li>
       </ul>
-      {/* <style>
-        {`
-        .hideMenuNav {
-            display: none;
-        }
-        .showMenuNav {
-            display: block;
-            position: absolute;
-            width: 100%;
-            height: 100vh;
-            top: 0;
-            left: 0;
-            background: white;
-            z-index: 10;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-        }`}
-      </style> */}
     </>
   )
 }
