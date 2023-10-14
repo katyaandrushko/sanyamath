@@ -65,7 +65,7 @@ function Pricing() {
                 .scrollIntoView({ behavior: 'smooth' })
             }}
           >
-            Дізнатися деталі
+            Отримати пробний урок
           </button>
 
           <p className="text1">
@@ -144,7 +144,7 @@ function Pricing() {
                 .scrollIntoView({ behavior: 'smooth' })
             }}
           >
-            Дізнатися деталі
+            Отримати пробний урок
           </button>
 
           <p className="text">

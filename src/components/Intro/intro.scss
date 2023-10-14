@@ -1,6 +1,6 @@
 .intro {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
 
     .i-left {
         display: flex;
@@ -41,6 +41,14 @@
             font-family: 'Montserrat';
             font-weight: 500;
             letter-spacing: 0.7px;
+        }
+
+        .i-desc span {
+            font-weight: 800;
+            font-size: 19px;
+            font-family: 'Montserrat';
+            color: #f3a323;
+            ;
         }
 
     }
@@ -372,7 +380,10 @@
 
             }
 
-
+            .i-button {
+                font-size: 14px;
+                padding: 10px;
+            }
         }
     }
 
