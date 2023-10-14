@@ -55,13 +55,16 @@
 
 
             .a-desc {
-                font-family: 'Montserrat';
-                font-weight: 400;
+
+
                 font-size: 20px;
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
-                font-weight: 300;
+
+                h2 {
+                    font-weight: 500;
+                }
 
                 h2 span {
 
@@ -70,9 +73,9 @@
                 }
 
                 .motiv {
-                    font-family: 'Montserrat';
+
                     padding-top: 50px;
-                    font-weight: 300;
+                    font-weight: 400;
                     font-size: 21px;
                     text-align: center;
                     font-style: oblique;

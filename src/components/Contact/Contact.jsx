@@ -18,10 +18,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        'service_uc8p8pe',
-        'template_5qyrsbc',
+        'service_oly5gjk',
+        'template_h8cdhwh',
         form.current,
-        'yzFIv3-4kTUuiUtG1'
+        '8v6lulg2vtwc0EPiD'
       )
       .then(
         (result) => {
@@ -173,7 +173,7 @@ function Contact() {
                   type="text"
                   name="user_email"
                   id="user_email"
-                  placeholder="Електронна пошта"
+                  placeholder="Електронна пошта" 
                   required
                 />
                 {/* <input type="submit" value="Send" className="btn" /> */}
