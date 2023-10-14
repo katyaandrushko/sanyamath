@@ -156,7 +156,7 @@ function Contact() {
                   type="text"
                   name="user_name"
                   id="user_name"
-                  placeholder="Ім`я та прізвище"
+                  placeholder="Ваше ім'я"
                   required
                 />
                 {/* <label>Номер телефону</label> */}
@@ -169,13 +169,13 @@ function Contact() {
                   placeholder="Номер телефону"
                   required
                 />
-                <input
+                {/* <input
                   type="text"
                   name="user_email"
                   id="user_email"
                   placeholder="Електронна пошта" 
                   required
-                />
+                /> */}
                 {/* <input type="submit" value="Send" className="btn" /> */}
 
                 <button className="btn c-btn" type="submit">

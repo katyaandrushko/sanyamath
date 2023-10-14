@@ -1,0 +1,61 @@
+.leadmagnet {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    margin-left: 20px;
+    background: #7c7a7a;
+    // background-color: #f48338d5;
+    padding: 60px 20px;
+    border: 1px solid #191919;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    z-index: 3;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+
+    width: 350px;
+    position: fixed;
+    right: 1%;
+    bottom: 3%;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background-image: var(--second-bg-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 40px;
+    z-index: 10;
+    transition: background-position 1s, border 0.3s;
+    background-position: right;
+    background-size: 200% auto;
+
+
+
+    .text-lead {
+        // padding: 10px 5px;
+        // letter-spacing: normal;
+        font-size: 19px;
+        font-weight: 600;
+    }
+}
+
+
+.close-button {
+    background-color: #f1ede6;
+    color: #161515;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    background-color: #444;
+    color: #fff;
+}
