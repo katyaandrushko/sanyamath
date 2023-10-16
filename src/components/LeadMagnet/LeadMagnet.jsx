@@ -21,13 +21,18 @@ function LeadMagnet() {
   return (
     showWidget && (
       <div className="leadmagnet">
-        <a href="#contact">
-          <span className="text-lead">Отримати безкоштовний урок!</span>
-        </a>
-
         <button onClick={closeWidget} className="close-button">
-          X
+          х
         </button>
+        <div className="content">
+          <span className="text-lead">
+            Отримайте безкоштовний урок з авторськими матеріалами!
+          </span>
+
+          <a href="#contact" className="btn">
+            <button className="button">Отримати</button>
+          </a>
+        </div>
       </div>
     )
   )

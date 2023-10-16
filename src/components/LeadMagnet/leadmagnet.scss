@@ -3,59 +3,94 @@
     bottom: 40px;
     right: 30px;
     margin-left: 20px;
-    background: #7c7a7a;
-    // background-color: #f48338d5;
-    padding: 60px 20px;
-    border: 1px solid #191919;
+    background: #ffffff;
+    border: 5px solid #f09819;
+
+    padding: 20px 10px;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #090909;
     z-index: 3;
     font-weight: 800;
-    display: flex;
-    justify-content: space-between;
-
-    width: 350px;
-    position: fixed;
-    right: 1%;
-    bottom: 3%;
-    border-radius: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    background-image: var(--second-bg-color);
-    padding: 20px;
-    display: flex;
+    // display: flex;
+    // justify-content: space-between;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    row-gap: 40px;
-    z-index: 10;
-    transition: background-position 1s, border 0.3s;
-    background-position: right;
-    background-size: 200% auto;
+    -webkit-transition:
+        width 2s,
+        height 2s,
+        background-color 2s,
+        -webkit-transform 2s;
+    transition:
+        width 2s,
+        height 2s,
+        background-color 2s,
+        transform 2s;
 
+    height: auto;
+
+    animation: pulse 2s infinite;
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.1);
+            /* Збільшення до 110% оригінального розміру */
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
 
 
     .text-lead {
-        // padding: 10px 5px;
-        // letter-spacing: normal;
+        width: 400px;
         font-size: 19px;
-        font-weight: 600;
+        font-weight: 500;
+        text-align: center;
     }
-}
 
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 20px;
+    }
 
-.close-button {
-    background-color: #f1ede6;
-    color: #161515;
-    border: none;
-    padding: 9px 15px;
-    border-radius: 50%;
-    margin-left: 10px;
-    cursor: pointer;
-}
+    .button {
+        padding: 7px 20px;
+        font-size: 15px;
+    }
 
-.close-button:hover {
-    background-color: #444;
-    color: #fff;
+    .close-button {
+
+        color: #161515;
+        border: none;
+        padding: 9px 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        position: absolute;
+        left: 19rem;
+        top: -1px;
+
+    }
+
+    .close-button:hover {
+        color: #f09819;
+
+    }
 }

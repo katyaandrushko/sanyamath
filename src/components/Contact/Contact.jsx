@@ -89,13 +89,13 @@ function Contact() {
 
   function validateForm() {
     const fullName = document.getElementById('user_name').value
-    const email = document.getElementById('user_email').value
+    // const email = document.getElementById('user_email').value
     const phone = document.getElementById('user_number').value
 
     const nameError = document.getElementById('name-error')
-    const emailError = document.getElementById('email-error')
+    // const emailError = document.getElementById('email-error')
     const numberError = document.getElementById('number-error')
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    // const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
     const phoneRegex = /^(\+380|0)[1-9]\d{8}$/
 
     if (fullName.trim() === '') {
@@ -105,13 +105,13 @@ function Contact() {
       nameError.textContent = ''
     }
 
-    if (!email.match(emailRegex)) {
-      emailError.textContent =
-        'Будь ласка, введіть коректну адресу типу name@gmail.com'
-      return false
-    } else {
-      emailError.textContent = ''
-    }
+    // if (!email.match(emailRegex)) {
+    //   emailError.textContent =
+    //     'Будь ласка, введіть коректну адресу типу name@gmail.com'
+    //   return false
+    // } else {
+    //   emailError.textContent = ''
+    // }
 
     if (phone.trim(phoneRegex) === '') {
       numberError.textContent =
@@ -123,17 +123,6 @@ function Contact() {
 
     return true
   }
-
-  // function showPopup(message) {
-  //   popupMessage.textContent = message
-  //   popup.style.display = 'block'
-  // }
-
-  // window.addEventListener('DOMContentLoaded', (event) => {
-  //   closePopup.addEventListener('click', function () {
-  //     popup.style.display = 'none'
-  //   })
-  // })
 
   return (
     <section id="contact">

@@ -12,7 +12,7 @@ import LeadMagnet from './components/LeadMagnet/LeadMagnet'
 function App() {
   return (
     <div className="container mx-auto mb-8 px-8 overflow-x-hidden">
-      <LeadMagnet />
+      {/* <LeadMagnet /> */}
       <Hamburger />
       <Intro />
       <Learning />
