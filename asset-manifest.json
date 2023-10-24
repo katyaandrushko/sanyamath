@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sanyamath/static/css/main.157e743b.css",
+    "main.css": "/sanyamath/static/css/main.fa775ee1.css",
     "main.js": "/sanyamath/static/js/main.de182d27.js",
     "index.html": "/sanyamath/index.html",
-    "main.157e743b.css.map": "/sanyamath/static/css/main.157e743b.css.map",
+    "main.fa775ee1.css.map": "/sanyamath/static/css/main.fa775ee1.css.map",
     "main.de182d27.js.map": "/sanyamath/static/js/main.de182d27.js.map"
   },
   "entrypoints": [
-    "static/css/main.157e743b.css",
+    "static/css/main.fa775ee1.css",
     "static/js/main.de182d27.js"
   ]
 }
